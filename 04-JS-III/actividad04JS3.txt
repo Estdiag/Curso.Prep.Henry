@@ -1,0 +1,20 @@
+Array: un array es una cajita en la cual podemos meter varios elementos
+sin importar el tipo, es decir, podemos meter String, booleanos, enteros
+decimales etc. podemos acceder a ellos por medio de un indice, el cual
+va a empezar en cero.
+por ejemplo: 
+datos= [10, "Paola", true, 1.0, "34", 76.8]
+esto que hayy arriba es un array, lo vamos a reconocer porque empieza
+en estos corchetes y va separado cada elemento por coma "," y tambien 
+tiene un nombre.
+para acceder a uno de los elementos lo podemos hacer así:
+datos[0]= 10
+datos[1]="paola"
+datos[5]= 76.8
+
+si queremos acceder uno a uno lo hacemos por medio de un for, asi:
+for (i=0; i<datos.lenght; i++) i<datos.lenght significa que va a 
+ser menor que la longitud de este array, para que no se torne un ciclo infinito
+(i=0; i<datos.lenght; i++)
+donde i va a tomar el valor de uno a uno de los elementos de la array
+primero será el 10, en la segunda vuelta será el "Paola" y así sucesivamente.
