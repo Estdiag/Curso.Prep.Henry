@@ -1,0 +1,62 @@
+objetos: son un tipo de datos que a diferencia de los arryas, los 
+cuales pueden contener varios datos de diferentes cosas,
+objetos tambien pueden contener varios datos pero de una misma cosa
+se crean así 
+const mascota={};
+
+propiedades: las propiedades son datos que creamos dentro de ese objeto
+como por ejemplo:
+
+const mascota={
+nombre: "Doki",
+raza: "pastor aleman",
+edad: 3 ,
+dueño: "Manolo"
+}
+
+En este caso cada nombre, raza, edad, dueño, es una propiedad. Ademas
+que nombre: "Doki", representa una key: value (clave:valor). sucede 
+igual con la raza: "pastor: aleman", edad: 3 
+
+Metodos: Son funciones que guardamos dentro de un objeto,
+por ende reciben el codigo de metodos.
+Como ya se ha explicado es una "accion" que se debe realizar siempre y
+cuando sea invocada.
+
+ejemplo:
+const mascota={
+nombre: "Doki",
+raza: "pastor aleman",
+edad: 3 ,
+dueño: "Manolo"
+ladrar: function(){
+console.log("guau, guau"){
+ladrido}
+}
+}
+
+este codigo ladrar() que metimos en el objeto, es un metodo.
+
+bucle for in : es un for que nos va a servir para iterar en cada 
+clave:valor
+ejemplo:
+const mascota={
+nombre: "Doki",
+raza: "pastor aleman",
+edad: 3 ,
+dueño: "Manolo"}
+
+for (let clave in mascota){
+console.log(clave)
+console.log(mascota[clave]);
+
+}
+nombre: 
+"Doki"
+raza: 
+"pastor aleman"
+edad: 
+3 
+dueño: 
+"Manolo"
+
